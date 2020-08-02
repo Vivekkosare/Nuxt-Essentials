@@ -1,24 +1,26 @@
 <template>
   <div class="container">
     <nuxt-link to="/users">Users</nuxt-link>
-    <hr>
-    <!-- <nuxt-link to="/products">Product page</nuxt-link> -->
-    <button @click="toProducts">Products</button>
+    <!-- <hr>
+    <button @click="toProducts">Products</button> -->
   </div>
 </template>
 
 <script>
 export default {
-  methods:{
-    toProducts(){
-      this.$router.push('/products');
-    }
-  }
+  // methods:{
+  //   toProducts(){
+  //     this.$router.push('/products');
+  //   }
+  // // }
+  //   ,
+   // layout:'users',
+   
 }
 </script>
 
 <style>
-.container {
+/* .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -55,5 +57,5 @@ export default {
 
 .links {
   padding-top: 15px;
-}
+} */
 </style>
